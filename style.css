@@ -100,35 +100,6 @@ body {
   background: #333;
   transition: all 0.3s ease;
 }
-
-/* Responsive: Mobile Nav */
-@media (max-width: 768px) {
-  .hamburger {
-    display: flex;
-  }
-
-  .nav-links {
-    position: absolute;
-    top: 64px;
-    right: 0;
-    flex-direction: column;
-    background: rgb(255, 255, 255);
-    width: 200px;
-    padding: 1rem;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    opacity: 0;
-    pointer-events: none;
-  }
-
-  .menu-toggle:checked ~ .nav-links {
-    opacity: 1;
-    pointer-events: auto;
-  }
-
-  .nav-links li {
-    margin-bottom: 1rem;
-  }
-}
 /* Navigasi */
 .nav-links {
   position: relative;
@@ -182,6 +153,36 @@ body {
   left: 350px;
   width: 70px;
 }
+
+/* Responsive: Mobile Nav */
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 64px;
+    right: 0;
+    flex-direction: column;
+    background: rgb(255, 255, 255);
+    width: 200px;
+    padding: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .menu-toggle:checked ~ .nav-links {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .nav-links li {
+    margin-bottom: 1rem;
+  }
+}
+
 
 /* Section umum */
 .section {
