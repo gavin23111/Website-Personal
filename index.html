@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gavin Taufan Dewangga - Portofolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+</head>
+<body>
+<nav class="navbar">
+  <div class="container nav-container">
+    <a href="#home" class="brand">Portofolio Gavin </a>
+    <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+    <label for="menu-toggle" class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+
+    <ul class="nav-links">
+      <div class="nav-indicator"></div> <!-- indikator biru -->
+      <li><a href="#home" class="nav-item active">Beranda</a></li>
+      <li><a href="#about" class="nav-item">Tentang</a></li>
+      <li><a href="#education" class="nav-item">Pendidikan</a></li>
+      <li><a href="#portfolio" class="nav-item">Portofolio</a></li>
+      <li><a href="#contact" class="nav-item">Kontak</a></li>
+    </ul>
+  </div>
+</nav>
+<section id="home" class="section home-section">
+  <div class="container home-container" data-aos="fade-up">
+    <div class="home-text">
+      <h1>Halo, saya <span>Gavin Taufan Dewangga</span></h1>
+      <p>Web Developer & UI/UX Designer</p>
+      <p>Selamat datang di Website portofolio saya, ini adalah website simple yang daya buat untuk membuat portofolio</p>
+      <a href="#portfolio" class="btn">Lihat Karya Saya</a>
+    </div>
+    <div class="home-image">
+      <img src="assets/Gavin.png" alt="Foto Saya" />
+    </div>
+  </div>
+</section>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2 data-aos="fade-right">Tentang Saya</h2>
+      <p data-aos="fade-up"><p>Saya adalah mahasiswa aktif Program Studi Pendidikan Teknologi Informasi di Universitas Negeri Surabaya dengan minat dan latar belakang di bidang pengembangan web, desain UI/UX, dan sistem informasi pendidikan. Saya telah mempelajari berbagai keterampilan teknis seperti HTML, CSS, Java, Microsoft Office, dan Canva, Saya memiliki semangat belajar tinggi, mampu bekerja secara individu maupun tim, dan siap mengembangkan kemampuan melalui pengalaman magang maupun kerja profesional.</p>
+      <div class="skills">
+        <div class="skill-section" data-aos="zoom-in">
+          <h3>🧠 Soft Skills</h3>
+          <ul>
+            <li>Komunikasi Efektif</li>
+            <li>Kepemimpinan</li>
+            <li>Pemecahan Masalah</li>
+            <li>Time Management</li>
+          </ul>
+        </div>
+        <div class="skill-section" data-aos="zoom-in">
+          <h3>🛠️ Hard Skills</h3>
+          <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>pyton</li>
+            <li>Figma </li>
+            <li>Version Control (Git)</li>
+            <li>Canva</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="education" class="section">
+  <div class="container">
+    <h2 data-aos="fade-right">Riwayat Pendidikan</h2>
+    
+    <div class="education-timeline">
+
+      <div class="education-item" data-aos="fade-up">
+        <div class="education-year">2023 – Sekarang</div>
+        <div class="education-details">
+          <h3>Sarjana (S1) Pendidikan Teknologi Informasi</h3>
+          <p>Universitas Negeri Surabaya (UNESA)</p>
+        </div>
+      </div>
+
+      <div class="education-item" data-aos="fade-up" data-aos-delay="100">
+        <div class="education-year">2019 – 2023</div>
+        <div class="education-details">
+          <h3>SMAS Muhammadiyah 2 Surabaya </h3>
+          <p>Jurusan IPA</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section id="portfolio" class="section">
+  <div class="container">
+    <h2 data-aos="fade-right">Proyek Saya</h2>
+    <div class="grid">
+
+      <div class="card" data-aos="fade-up">
+        <img src="assets/project1.png" alt="Project 1" />
+        <h3>Website e-catalog</h3>
+        <p>Website untuk melihat ketersediaan stok gadget, menggunakan Html, java Script, dan css. serta menggunakan backend laravel.</p>
+        <a href="https://github.com/kamu/project1" target="_blank" class="project-button">Lihat Proyek</a>
+      </div>
+
+      <div class="card" data-aos="fade-up" data-aos-delay="100">
+        <img src="assets/project2.jpg" alt="Project 2" />
+        <h3>Aplikasi MYnotes</h3>
+        <p>Aplikasi sederhana namun efektif untuk mengatur keuangan yang memiliki fitur mengontrol keuangan.</p>
+        <a href="https://your-todo-app.vercel.app" target="_blank" class="project-button">Lihat Proyek</a>
+      </div>
+
+      <div class="card" data-aos="fade-up" data-aos-delay="200">
+        <img src="assets/project3.png" alt="Project 3" />
+        <h3>Desain UI/UX bolosewu</h3>
+        <p>Bolosewu merupakan website hosting dan top up. Desain UI/UX menggunakan figma.</p>
+        <a href="https://www.figma.com/file/kamu/dashboard" target="_blank" class="project-button">Lihat Proyek</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section id="contact" class="section">
+  <div class="container" data-aos="fade-up">
+    <h2>Kontak Saya</h2>
+    <p>Silakan hubungi atau ikuti saya melalui platform berikut:</p>
+
+    <div class="contact-list">
+
+      <div class="contact-item">
+        <img src="assets/git.png" alt="GitHub" class="contact-icon" />
+        <div>
+          <strong>GitHub</strong><br />
+          <a href="https://github.com/gavin23111" target="_blank">github.com/gavvin23111</a>
+        </div>
+      </div>
+
+      <div class="contact-item">
+        <img src="assets/instagram.jpeg" alt="Instagram" class="contact-icon" />
+        <div>
+          <strong>Instagram</strong><br />
+          <a href="https://instagram.com/" target="_blank">@tauffn_</a>
+        </div>
+      </div>
+
+      <div class="contact-item">
+        <img src="assets/gmail.jpeg" alt="Email" class="contact-icon" />
+        <div>
+          <strong>Email</strong><br />
+          <a href="mailto:gavindewangga13@gmail.com">gavindewangga13@gmail.com</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Gavin Taufan Dewangga</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>
+
